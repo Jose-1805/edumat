@@ -1,0 +1,13 @@
+.item-ranking{
+    z-index: 1000;
+}
+
+.item-ranking-move{
+    z-index: 1001;
+    transition-property: all;
+    transition-duration: 1.5s;
+}
+
+.item-ranking .badge{
+    padding: 8px;
+}

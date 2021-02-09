@@ -1,0 +1,16 @@
+#menu_flotante{
+    width: 60px !important;
+    height: auto !important;
+    position: fixed !important;
+    left: 2% !important;
+    top: 95px !important;
+    text-align: center !important;
+}
+
+#menu_flotante a{
+    padding: 0px !important;
+}
+
+.item_menu_flotante i{
+    line-height: 50px !important;
+}

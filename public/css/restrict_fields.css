@@ -1,0 +1,37 @@
+/**
+PARA MENSAJES DE VALIDACION POR CAMPO
+ */
+.input-validado-danger input[type='text'],
+.input-validado-danger input[type='password'],
+.input-validado-danger textarea{
+    border-bottom-color: #dc3545 !important;
+    box-shadow: 0 1px 0 0 #dc3545 !important;
+}
+.input-validado-danger select{
+    border-color: #dc3545 !important;
+}
+
+.input-validado-danger label{
+    color: #dc3545 !important;
+}
+
+.input-validado-success input[type='text'],
+.input-validado-success input[type='password'],
+.input-validado-success textarea{
+    border-bottom-color: #00a847 !important;
+    box-shadow: 0 1px 0 0 #00A847 !important;
+}
+.input-validado-success select{
+    border-color: #00A847 !important;
+}
+
+.input-validado-success label{
+    color: #00A847 !important;
+}
+
+.input-validado input[type='text'],
+.input-validado input[type='password'],
+.input-validado select,
+.input-validado textarea{
+
+}

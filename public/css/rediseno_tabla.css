@@ -1,0 +1,128 @@
+.tabla-rediseno thead *{
+    color: #FFF !important;
+}
+
+.tabla-rediseno tbody{
+    background-color: #FFF !important;
+}
+/**
+        WARNING
+ */
+.tabla-rediseno.tabla-warning thead{
+    background-color: #f80 !important;
+}
+
+.dataTables_wrapper{
+    padding-right: 2px;
+    min-width: 100%;
+}
+
+.dataTables_wrapper.tabla-warning-wrapper{
+    background: -moz-linear-gradient(270deg, rgba(255,136,0,1) 0%, rgba(255,136,0,1) 30%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,136,0,1)), color-stop(30%, rgba(255,136,0,1)), color-stop(71%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(270deg, rgba(255,136,0,1) 0%, rgba(255,136,0,1) 30%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(270deg, rgba(255,136,0,1) 0%, rgba(255,136,0,1) 30%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(270deg, rgba(255,136,0,1) 0%, rgba(255,136,0,1) 30%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%); /* ie10+ */
+    background: linear-gradient(180deg, rgba(255,136,0,1) 0%, rgba(255,136,0,1) 30%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF8800', endColorstr='#ffffff',GradientType=0 ); /* ie6-9 */
+    padding-top: 20px !important;
+    border: 1px solid #f80 !important;
+}
+
+.filtros-tabla.filtros-tabla-warning{
+    background-color: #f80 !important;
+    padding: 10px !important;
+}
+
+/**
+        SUCCESS
+ */
+.tabla-rediseno.tabla-success thead{
+    background-color: #00c851 !important;
+}
+
+.dataTables_wrapper.tabla-success-wrapper{
+    background: -moz-linear-gradient(270deg, #00c851 0%, #00c851 30%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00c851), color-stop(30%, #00c851), color-stop(71%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(270deg, #00c851 0%, #00c851 30%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(270deg, #00c851 0%, #00c851 30%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(270deg, #00c851 0%, #00c851 30%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%); /* ie10+ */
+    background: linear-gradient(180deg, #00c851 0%, #00c851 30%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF8800', endColorstr='#ffffff',GradientType=0 ); /* ie6-9 */
+    padding-top: 20px !important;
+    border: 1px solid #00c851 !important;
+}
+
+.filtros-tabla.filtros-tabla-success{
+    background-color: #00c851 !important;
+    padding: 10px !important;
+}
+
+/**
+        PRIMARY
+ */
+.tabla-rediseno.tabla-primary thead{
+    background-color: #4285f4 !important;
+}
+
+.dataTables_wrapper.tabla-primary-wrapper{
+    background: -moz-linear-gradient(270deg, #4285f4 0%, #4285f4 30%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4285f4), color-stop(30%, #4285f4), color-stop(71%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(270deg, #4285f4 0%, #4285f4 30%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(270deg, #4285f4 0%, #4285f4 30%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(270deg, #4285f4 0%, #4285f4 30%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%); /* ie10+ */
+    background: linear-gradient(180deg, #4285f4 0%, #4285f4 30%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF8800', endColorstr='#ffffff',GradientType=0 ); /* ie6-9 */
+    padding-top: 20px !important;
+    border: 1px solid #4285f4 !important;
+}
+
+.filtros-tabla.filtros-tabla-primary{
+    background-color: #4285f4 !important;
+    padding: 10px !important;
+}
+
+/**
+        INFO
+ */
+.tabla-rediseno.tabla-info thead{
+    background-color: #33b5e5 !important;
+}
+
+.dataTables_wrapper.tabla-info-wrapper{
+    background: -moz-linear-gradient(270deg, #33b5e5 0%, #33b5e5 30%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #33b5e5), color-stop(30%, #33b5e5), color-stop(71%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(270deg, #33b5e5 0%, #33b5e5 30%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(270deg, #33b5e5 0%, #33b5e5 30%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(270deg, #33b5e5 0%, #33b5e5 30%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%); /* ie10+ */
+    background: linear-gradient(180deg, #33b5e5 0%, #33b5e5 30%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF8800', endColorstr='#ffffff',GradientType=0 ); /* ie6-9 */
+    padding-top: 20px !important;
+    border: 1px solid #33b5e5 !important;
+}
+
+.filtros-tabla.filtros-tabla-info{
+    background-color: #33b5e5 !important;
+    padding: 10px !important;
+}
+
+.dataTables_length{
+    margin-left: 10px !important;
+}
+
+.dataTables_filter{
+    margin-right: 10px !important;
+}
+
+.dataTables_info{
+    margin-left: 10px !important;
+}
+
+.dataTables_paginate{
+    margin-right: 10px !important;
+}
+
+.dataTables_length label,
+.dataTables_filter label{
+    color: #fff !important;
+}
